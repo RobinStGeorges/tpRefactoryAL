@@ -3,8 +3,7 @@ public class Person {
         return "";
     }
     public String getTelNum(){
-        Contact contact = new Contact(getOfficeAreaCode(), getNumber());
-        return contact.getTelNum();
+        
     }
     private String getOfficeAreaCode(){
         return "";
