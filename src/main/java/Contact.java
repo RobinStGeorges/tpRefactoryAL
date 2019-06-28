@@ -1,8 +1,8 @@
 public class Contact {
     String officeArea;
-    int number;
+    String number;
 
-    public Contact(String officeArea, int number) {
+    public Contact(String officeArea, String number) {
         this.officeArea = officeArea;
         this.number = number;
     }

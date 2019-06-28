@@ -1,9 +1,9 @@
 public class Person {
 
     String officeAreaCode;
-    int number;
+    String number;
 
-    public Person(String officeAreaCode, int number) {
+    public Person(String officeAreaCode, String number) {
         this.officeAreaCode = officeAreaCode;
         this.number = number;
     }
@@ -16,13 +16,13 @@ public class Person {
         return contact.getTelNum();
     }
     private String getOfficeAreaCode(){
-        return "";
+        return officeAreaCode;
     }
     private void setOfficeAreaCode(int code){
 
     }
-    private int getNumber(){
-        return 14;
+    private String getNumber(){
+        return number;
     }
     private void setNumber(){
     }
