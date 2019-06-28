@@ -7,5 +7,8 @@ public class Contact {
         this.number = number;
     }
 
+    public String getTelNum(){
+        return officeArea+""+number;
+    }
 
 }
