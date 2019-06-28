@@ -1,5 +1,11 @@
 public class Contact {
-    public String getTelNum(){
-        return "";
+    String officeArea;
+    int number;
+
+    public Contact(String officeArea, int number) {
+        this.officeArea = officeArea;
+        this.number = number;
     }
+
+
 }

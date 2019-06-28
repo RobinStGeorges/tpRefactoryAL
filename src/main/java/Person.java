@@ -3,10 +3,11 @@ public class Person {
         return "";
     }
     public String getTelNum(){
-        return "";
+        Contact contact = new Contact(getOfficeAreaCode(), getNumber());
+        return contact.getTelNum();
     }
-    private int getOfficeAreaCode(){
-        return 14;
+    private String getOfficeAreaCode(){
+        return "";
     }
     private void setOfficeAreaCode(int code){
 
