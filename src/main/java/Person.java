@@ -1,4 +1,13 @@
 public class Person {
+
+    String officeAreaCode;
+    int number;
+
+    public Person(String officeAreaCode, int number) {
+        this.officeAreaCode = officeAreaCode;
+        this.number = number;
+    }
+
     public String getname(){
         return "";
     }
