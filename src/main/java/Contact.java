@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
 public class Contact {
+    public String getTelNum(){
+        return "";
+    }
 }
